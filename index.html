@@ -2,10 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="5;url=https://www.example.com">
-    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect</title>
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="https://www.example.com">link to the new page</a>.</p>
+    <script>
+        // Function to redirect after a delay
+        function redirectToURL() {
+            // Wait for 500 milliseconds (0.5 seconds)
+            setTimeout(function() {
+                // Redirect to the specified URL
+                window.location.href = "https://gold-ibis-ar0j1z489rc5k6w2.builder-preview.com/";
+            }, 500);
+        }
+
+        // Call the redirect function when the page loads
+        window.onload = redirectToURL;
+    </script>
 </body>
 </html>
